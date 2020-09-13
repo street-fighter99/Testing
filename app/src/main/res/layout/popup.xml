@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/popupname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:hint="enter your name"
+        android:textColorHint="#fff"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/popupmobileno"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="enter your mobile no."
+        android:textColorHint="#fff"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/popupbloodgroup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="enter your BloodGroup"
+        android:textColorHint="#fff"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/addbttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#B61B1B"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+
+</LinearLayout>
